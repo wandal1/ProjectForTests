@@ -9,6 +9,6 @@ ABatteryPickup::ABatteryPickup()
 {
 	bReplicateMovement = true;
 
-	GetStaticMeshComponent()->SetSimulatePhysics(true);
 	GetStaticMeshComponent()->SetMobility(EComponentMobility::Movable);
+	GetStaticMeshComponent()->SetSimulatePhysics(true);
 }
